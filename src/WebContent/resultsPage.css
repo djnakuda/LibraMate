@@ -1,0 +1,66 @@
+
+#header{
+	background-color: #39ac73;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+#logo a{
+	font-size: 50px;
+	font-family: Arial;
+	color:  #f2f2f2;
+    text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000; 
+	text-decoration: none; 
+	overflow: hidden;
+	float: left;
+	padding-right:10px;
+	padding-left: 20px;
+}
+
+body{
+	background-color: #4db8ff;
+}
+
+#resultsDisplay{
+	background-color: #4db8ff;
+	font-family: Arial;
+	text-decoration: none; 
+	width: 100%;
+	left:0px;
+	padding-right: 30px;
+	padding-top: 50px;
+}
+
+#resultsDisplay a{
+	font-family: Arial;
+	text-decoration: none; 
+	color: black;	
+}
+
+#img{
+	width: 20px;
+	height: 20px;
+}
+
+form input{
+	max-width: 70%;
+	overflow: hidden;
+	float: left;
+}
+
+#searchBar input {
+			    width: 450px;
+			    padding: 5px;
+			    margin: 15px;
+			    height: 25px;
+			    background-image: url("magnifyingGlass.png");
+			    background-size: 75px 75px;
+			    background-repeat: no-repeat;
+			    background-position: right;
+			}

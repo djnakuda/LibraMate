@@ -1,0 +1,82 @@
+body{
+	background-color: #4db8ff;
+	padding-bottom: 50px;
+	left: 0px;
+	width: 100%;
+}
+
+#header{
+	background-color: #39ac73;
+	padding-left: 20px;
+	overflow: hidden;
+	position: fixed;
+	width:100%;
+	top: 0px;
+	left: 0px;
+}
+#logo a{
+	font-size: 50px;
+	font-family: Arial;
+	color:  #f2f2f2;
+    text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000; 
+	text-decoration: none; 
+	overflow: hidden;
+	float: left;
+	padding-right:10px;
+}
+
+#resultsDisplay{
+	background-color: #4db8ff;
+	font-family: Arial;
+	text-decoration: none;
+	padding-top: 40px; 
+	left:0px;
+	overflow: hidden ;
+}
+
+#resultsDisplay img{
+	width:400px;
+	height: 600px;
+	padding-left: 20px;
+	padding-bottom: 100px;
+	padding-top: 25px;
+	padding-right: 20px;
+	float : left;
+}
+
+form input{
+	max-width: 70%;
+	overflow: hidden;
+	float: left;
+}
+
+.whitetext{
+	font-size: 40px;
+	font-family: Arial;
+	color:  #f2f2f2;
+    text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000; 
+	
+}
+
+#description{
+	float: left
+}
+
+#searchBar input {
+			    width: 450px;
+			    padding: 5px;
+			    margin: 15px;
+			    height: 25px;
+			    background-image: url("magnifyingGlass.png");
+			    background-size: 75px 75px;
+			    background-repeat: no-repeat;
+			    background-position: right;
+			}
